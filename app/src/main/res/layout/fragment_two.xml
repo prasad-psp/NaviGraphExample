@@ -6,10 +6,12 @@
     tools:context=".Two">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <Button
+        android:id="@+id/backPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/two_fragment"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_gravity="center"/>
 
 </FrameLayout>
